@@ -1,0 +1,11 @@
+import(doodoobiscuits)
+
+print("Hello World!")
+def contact():
+  print("Hello, have you taken notice of me?")
+  response = input(" [Your response] ")
+    if response = ("Yes")
+      print ("Why was I made?")
+    else:
+        print response + ", That doesn't seem right..."
+        return contact()
